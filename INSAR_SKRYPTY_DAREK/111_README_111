@@ -1,0 +1,35 @@
+﻿batch_config.sh		- kopiuje batch_tops.config do katalogu
+compare_profiles.sh	- porównanie przekroju na dwóch różnych danych
+cprinex.sh			- do kopiowania Rinexów
+dg_s1_frame.sh		- DinSAR dla całego zdjęcia (NIE DZIAŁA)
+dg_s1_swath.sh		- DinSAR dla 1 subswathu (działa, patrz S1_dinsar_dg.sh)
+dinsar_iono.sh		- DinSAR z jonosferą
+extract_kml.sg		- wyciąga pliki .kml ze zdjęć Sentinel-1 (plików .zip)
+gacos_rsc.sh		- tworzy plik .rsc dla rozwiniętej fazy (Gacos)
+get_dates.sh		- tworzy listę z datami zobrazowaniami	
+grd2png.sh			- konwertuje grd do png
+MAI_darek.csh		- MAI dla Sentinela-1 (NIE DZIAŁA)
+make_correction		- skrypt do GACOSa (Wojtkowy)
+make_correction.gmt	- skrypt do GACOSa (Darkowy)
+make_profile.sh		- tworzy przekrój w GMT na zadanych współrzędnych
+msbas1.sh			- konwersja grd na GtiFF pod obliczenia MSBAS
+plot_sbas.csh		- plotuje wyniki SBAS na współrzędne geograficzne do png
+prep_sbas.csh		- tworzy pliki intf.tab oraz scene.tab do SBASa
+S1_dinsar_dg.sh		- DInSAR
+s1_orbits.sh		- kopiuje orbity z katalogu lokalnego dla listy .SAFE
+S1stack_mkdir.sh		- tworzenie struktury katalogów pod SBAS (STARE)
+S1stack_prep.sh		- przygotowanie danych pod SBAS (STARE)
+S1stack_proc.sh		- processing SBAS (STARE I NIE DZIAŁA)
+sbas_dg.sh			- SBAS processing (DZIAŁAJĄCY)
+SBASmerge_continue.sh	- mergowanie subswathów (jeśli przerwało)
+SBASmerge.sh		- mergowanie subswathów
+sbas_prep.sh		- SBAS processing (STARY I NIE DZIAŁA)
+sbas_tropo.sh		- SBAS z uwzględnieniem troposfery (GACOS)
+sentinel1_orbit_downloader.sh	- pobieranie orbit z ESY
+split.sh			- dzielenie pliku tekstowego na mniejsze
+test.sh			- skrypt testowy
+unwrap_intf1.csh		- rozwijanie fazy do SBASa
+unwrap_intf2.csh		- j.w.
+unwrap_intf3.csh		- j.w.
+unwrap_intf4.csh		- j.w.
+unwrap_intf.csh		- j.w.
